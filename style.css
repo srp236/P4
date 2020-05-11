@@ -1,0 +1,139 @@
+/*DEVELOPER: Sheyeanne Powell, IS117-004, Spring 2020 */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+	height: 100%
+	width:100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+}
+
+/*---Navigation---*/
+.navbar {
+	overflow: hidden;
+	width: 100%;
+	padding: 0.8rem;
+}
+
+.navbar a {
+	float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; 
+    text-align: center;
+}
+
+.navbar-nav li {
+	padding-right: 1.3rem;
+}
+.nav-link {
+	font-size: 1.1em !important;
+}
+
+nav li {
+	padding: 0;
+	justify-content: space-between;
+}
+
+/*main image*/
+#main-img {
+	width: 100%;
+    height: 60vh;
+    background: url("../img/back5.jfif") top center;
+    background-size: cover;
+    position: relative;
+}
+#main-img:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#main-img .container {
+  padding-top: 72px;
+  position: relative;
+  text-align: center;
+}
+
+#main-img h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#main-img h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+
+@media (min-width: 1024px) {
+  #main-img {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #main-img h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #main-img h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #main-img .bottom
+
+/*jumbotron*/
+.jumbotron {
+	padding: 1rem;
+	border-radius: 0;
+	margin-top: -100px;
+	margin-bottom: -100px;
+}
+
+/*welcome section*/
+.welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem; 
+}
+
+/*cards*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+	font-size: 24px;
+	color: #333;
+	font-weight: bold;
+}
+
+#card .card {
+	border-radius: 0;
+	box-shadow: 5px 5px 10px #6555;
+}
+#card .card:hover{
+	background: #f74c3c;
+}
+
+/*
+*/
